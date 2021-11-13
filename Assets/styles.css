@@ -1,0 +1,42 @@
+
+
+.box {
+    background-color: lightgrey;
+    color: black;
+    padding: 5px;
+    padding-bottom: 10px;
+    margin: 20px;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+#today-temp {
+  
+    border: dotted 5px black;
+    box-sizing: border-box;
+    padding: 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#uv-index {
+   color: red;
+}
+
+.container{
+
+background-color: seagreen;
+}
+
+
+#search-button {
+    background-color: purple;
+    margin-block: black;
+    
+    
+}
+
+.title{
+    color: black
+  
+}

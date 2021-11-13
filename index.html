@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/styles.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header class="container d-flex mb-2">
+        <div class="title">
+            <h1>Weather Dashboard</h1>
+        </div>
+    </header>
+
+    <!-- search city holder -->
+    <main class="">
+     <div class="row">
+        <div class="col-4">
+        <div class="card">
+            <h2 class="citysearch">City Search</h2>
+            <form id="user-form" class="card-body">
+                <label class="form-label" for="City">US City Name:</label>
+                <input name="city" type="text" id="search-value"  autofocus="true"  />
+                <button type="button" class="btn-search" id="search-button">Search</button>
+                    </form>
+                    <div id="city-list"></div>
+                </div>
+
+</div>
+<!-- today here -->
+<div class="col-4">
+<div class="row" id="today-temp">
+<div class="col-8 col-lg-9">
+    <h5 id="current-date"></h5>
+    <h3 id="current-city"></h3>
+    <img id="current-weather-icon" />
+        Temp: <span id="temp"></span> ° F
+        <br>
+            Windspeed: <span id="wind"></span> MPH
+            <br>
+                Humidity: <span id="humidity"></span> %
+                <br>
+                    UV Index: <span id="uv-index"></span>
+                    <br> </p>
+</div>
+                </div>
+<!-- forcast here -->
+    </div>
+                    <div class="container ">
+                        <div class="row">
+                            <h3> 5 Day Forecast:</h3>
+<!-- day 1 -->                          
+    <div class="box"> <p>
+        <span id="day-one"></span>
+          <br>
+            <img id="icon-day-one">
+              <br>
+                Temp: <span id="temp-one"></span> ° F
+                   <br>
+                     Windspeed: <span id="wind-one"></span> MPH
+                        <br>
+                         Humidity: <span id="humidity-one"></span> %
+                          <br></p>
+                            </div>
+ <!-- day 2 -->                           
+       <div class="box"> <p>
+          <span id="day-two"></span>
+             <br>
+               <img id="icon-day-two">
+                 <br>
+                   Temp: <span id="temp-two"></span> ° F
+                     <br>
+                       Windspeed: <span id="wind-two"></span> MPH
+                         <br>
+                          Humidity: <span id="humidity-two"></span> %
+                             <br></p>
+                            </div>
+<!-- day 3 -->                            
+        <div class="box"> <p>
+            <span id="day-three"></span>
+               <br>
+                 <img id="icon-day-three">
+                   <br>
+                     Temp: <span id="temp-three"></span> ° F
+                      <br>
+                        Windspeed: <span id="wind-three"></span> MPH
+                         <br>
+                          Humidity: <span id="humidity-three"></span> %
+                            <br> </p>
+                            </div>
+<!-- day 4 -->                           
+     <div class="box"> <p>
+        <span id="day-four"></span>
+           <br>
+             <img id="icon-day-four">
+                <br>
+                    Temp: <span id="temp-four"></span> ° F
+                      <br>
+                       Windspeed: <span id="wind-four"></span> MPH
+                        <br>
+                         Humidity: <span id="humidity-four"></span> %
+                           <br> </p>
+                            </div>
+    <!-- day 5 -->
+        <div class="box"> <p>
+            <span id="day-five"></span>
+                <br>
+                  <img id="icon-day-five">
+                    <br>
+                      Temp: <span id="temp-five"></span> ° F
+                        <br>
+                         Windspeed: <span id="wind-five"></span> MPH
+                          <br>
+                            Humidity: <span id="humidity-five"></span> %
+                             <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="Assets/script.js"></script>
+</body>
+
+</html>
