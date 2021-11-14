@@ -8,6 +8,7 @@
     margin: 20px;
     line-height: 40px;
     border-radius: 5px;
+
 }
 
 #today-temp {
@@ -20,14 +21,13 @@
 }
 
 #uv-index {
-   color: red;
+  
 }
 
 .container{
-
+display: inline-flex;
 background-color: seagreen;
 }
-
 
 #search-button {
     background-color: purple;
@@ -39,4 +39,8 @@ background-color: seagreen;
 .title{
     color: black
   
+}
+
+ul {
+    list-style: none;
 }
