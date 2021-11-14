@@ -25,8 +25,9 @@
 }
 
 .container{
-display: inline-flex;
-background-color: seagreen;
+display: flex;
+background-color: rgba(71, 3, 62, 0.61);
+width: 90%;
 }
 
 #search-button {
@@ -37,10 +38,16 @@ background-color: seagreen;
 }
 
 .title{
+    text-align: center;
     color: black
-  
+    
 }
 
 ul {
     list-style: none;
+}
+
+.flex-d{
+
+
 }

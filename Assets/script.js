@@ -29,7 +29,7 @@ $("#current-weather-icon").text(data.weather[0].icon)
 
 
               // uv index
-              var uv_url = "https://api.openweathermap.org/data/2.5/onecall?lat="+data.coord.lat+"&"+"lon="+data.coord.lon + "&appid=6d1d7721cce65133dca83415077d7208&units=imperial" 
+ var uv_url = "https://api.openweathermap.org/data/2.5/onecall?lat="+data.coord.lat+"&"+"lon="+data.coord.lon + "&appid=6d1d7721cce65133dca83415077d7208&units=imperial" 
               //console.log(uv_url)  
 
 fetch (uv_url)
@@ -49,6 +49,8 @@ if (parseFloat(uv.current.uvi) < 3) {
 }
 })
 })
+
+
 // forcast weather
 
 fetch (forecast_url)
@@ -114,7 +116,6 @@ let keys = Object.keys(localStorage)
 console.log(keys)
 for (let i = 0; i < keys.length; i++) {
     $(".city-btns").append("<li><button class='btn-list-search'>"+keys[i]+"</button></li>")
-    
     
 }
 
