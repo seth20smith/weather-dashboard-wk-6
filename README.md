@@ -4,3 +4,4 @@
 
 Weather dashboard using APIs from: openweathermap.org to call for: tempature , humidity, windspeed and UV index. 
 The ability to search by city name and receieve a 5 day forecast.
+The Page also saves recent searches to local storage for a quick re-search.
